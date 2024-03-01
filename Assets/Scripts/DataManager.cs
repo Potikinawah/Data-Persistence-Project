@@ -7,7 +7,7 @@ public class DataManager : MonoBehaviour
     public static DataManager Instance;
 
     public string playerName;
-    public int bestScore;
+    public int score;
 
     void Awake()
     {
@@ -18,7 +18,7 @@ public class DataManager : MonoBehaviour
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject);   
+        DontDestroyOnLoad(gameObject);
     }
 
     
