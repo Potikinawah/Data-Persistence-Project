@@ -36,6 +36,7 @@ public class MainManager : MonoBehaviour
                 brick.onDestroyed.AddListener(AddPoint);
             }
         }
+        Debug.Log("My name is : " + "DataManager.Instance.playerName");
     }
 
     private void Update()
